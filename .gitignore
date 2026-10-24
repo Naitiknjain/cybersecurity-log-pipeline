@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Local configuration (contains credentials)
+.env
+
+# Spark runtime output
+checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Logs and OS / editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
